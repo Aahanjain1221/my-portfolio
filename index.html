@@ -1,69 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>My Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="index.css">
-	<script type="text/javascript" src="portfolio.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
+  <header>
+    <nav>
+      <div class="container">
+        <h1 class="logo">Naruto Uzumaki</h1>
+        <ul class="menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
-	<header>
-		<h1>My Portfolio</h1>
-		<nav>
-			<ul>
-				<li><a href="#about">About</a></li>
-				<li><a href="#projects">Projects</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
+  <main>
+    <section id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>Naruto Uzumaki (うずまきナルト, Uzumaki Naruto) is a shinobi of Konohagakure's Uzumaki clan. He became the jinchūriki of the Nine-Tails on the day of his birth — a fate that caused him to be shunned by most of Konoha throughout his childhood. After joining Team Kakashi, Naruto worked hard to gain the village's acknowledgement all the while chasing his dream to become Hokage. In the following years, through many hardships and ordeals, he became a capable ninja, regarded as a hero both by the villagers, and soon after, the rest of the world, becoming known as the Hero of the Hidden Leaf (木ノ葉隠れの英雄, Konohagakure no Eiyū, literally meaning: Hero of the Hidden Tree Leaves). He soon proved to be one of the main factors in winning the Fourth Shinobi World War, leading him to achieve his dream and become the village's Seventh Hokage (七代目火影, Nanadaime Hokage, literally meaning: Seventh Fire Shadow).</p>
+		<img src="https://staticg.sportskeeda.com/editor/2022/08/53e15-16596004347246.png" height="250" width="350" >
+	</div>
+    </section>
 
-	<main>
+    <section id="Life goals">
+      <div class="container">
+        <h2>Life goals</h2>
+        <div class="project">
+          <img src="https://eurekaergonomic.com/product_images/uploaded_images/what-are-gamer-eyes-2.png" height="150" width="250" alt="To become a gamer">
+          <h3>gamer</h3>
+          <p>To become the world's best gamer.</p>
+        </div>
+        <div class="project">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHZgbrSjIpViKA8w_lPAoun85d5Z6Zw1oTng&usqp=CAU" alt="Life goal 2">
+          <h3>youtuber</h3>
+          <p>To become world's best youtuber.</p>
+        </div>
+      </div>
+    </section>
 
-		<section id="about">
-			<h2>About Me</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel tincidunt lorem. Curabitur bibendum neque non urna tincidunt consectetur. Sed ut est tortor. Proin ac arcu in nunc efficitur ultrices. Nam bibendum ante et ultrices congue. Fusce id lorem euismod, semper ex eget, feugiat tellus.</p>
-		</section>
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <form>
+          <input type="text" placeholder="Your Name">
+          <input type="email" placeholder="Your Email">
+          <textarea placeholder="Message"></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+  </main>
 
-		<section id="projects">
-			<h2>My Projects</h2>
-			<ul>
-				<li>
-					<h3>Project 1</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-				</li>
-				<li>
-					<h3>Project 2</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-				</li>
-				<li>
-					<h3>Project 3</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-				</li>
-			</ul>
-		</section>
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Portfolio. All rights reserved.</p>
+    </div>
+  </footer>
 
-		<section id="contact">
-			<h2>Contact Me</h2>
-			<form>
-				<label for="name">Name:</label>
-				<input type="text" id="name" name="name"><br><br>
-
-				<label for="email">Email:</label>
-				<input type="email" id="email" name="email"><br><br>
-
-				<label for="message">Message:</label>
-				<textarea id="message" name="message"></textarea><br><br>
-
-				<input type="submit" value="Submit">
-			</form>
-		</section>
-
-	</main>
-
-	<footer>
-		<p>&copy; 2023 My Portfolio</p>
-	</footer>
-
+  <script src="script.js"></script>
 </body>
 </html>
